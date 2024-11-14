@@ -9,7 +9,7 @@ export default function Nav() {
     <div className="flex justify-between items-center h-16">
       {/* Logo */}
       <Link 
-        href="/home" 
+        href="/" 
         className="text-2xl font-bold text-orange-500 hover:text-orange-600 transition-colors duration-300 flex items-center space-x-2"
       >
         <span>Food 🅱️log</span>
