@@ -5,7 +5,7 @@ export default function Newsletter() {
     <div className="bg-gray-100 py-16 px-4">
       <div className="max-w-3xl mx-auto text-center space-y-8">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-          Subscribe to our Newsletter
+          Recipes in your Inbox
         </h1>
         <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-lg mx-auto">
           <input
