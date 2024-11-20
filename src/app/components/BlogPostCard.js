@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+
 export default function BlogCard({ isLarge = false }) {
   return (
     <div className={`bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 ${isLarge ? 'h-full' : ''}`}>
