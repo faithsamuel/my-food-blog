@@ -1,5 +1,7 @@
 import FavouriteRecipes from '@/app/components/FavouriteRecipes'
 import React from 'react'
+import RecipeScheduler from '@/app/components/RecipeScheduler'
+import DietaryPreferences from '@/app/components/DietaryPreferences'
 
 export default function page() {
   return (
@@ -19,7 +21,14 @@ export default function page() {
 
           {/* Main Content */}
           <div className="flex-1 bg-white rounded-lg min-h-[800px] shadow-md">
-            <FavouriteRecipes/>
+            {/* <FavouriteRecipes/> */}
+
+            {/* <RecipeScheduler/> */}
+
+            <DietaryPreferences/>
+
+            
+
           </div>
         </div>
       </div>
