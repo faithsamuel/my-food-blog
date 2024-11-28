@@ -1,5 +1,6 @@
 import React from 'react'
 import RecipeCard from './RecipeCard'
+import { Pagination } from 'antd';
 
 export default function FavouriteRecipes() {
   return (
@@ -12,6 +13,10 @@ export default function FavouriteRecipes() {
                 <RecipeCard/>
                 <RecipeCard/>
                 <RecipeCard/>
+            </div>
+            
+            <div className='flex justify-center mb-2'>  
+              <Pagination defaultCurrent={1} total={50} />
             </div>
     </div>
   )

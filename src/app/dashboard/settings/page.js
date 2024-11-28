@@ -1,4 +1,7 @@
+import CalorieNutritionCalculator from '@/app/components/CalorieNutritionCalculator'
+import DietaryPreferences from '@/app/components/DietaryPreferences'
 import FavouriteRecipes from '@/app/components/FavouriteRecipes'
+import RecipeScheduler from '@/app/components/RecipeScheduler'
 import React from 'react'
 
 export default function page() {
@@ -19,7 +22,12 @@ export default function page() {
 
           {/* Main Content */}
           <div className="flex-1 bg-white rounded-lg min-h-[800px] shadow-md">
-            <FavouriteRecipes/>
+            {/* <FavouriteRecipes/> */}
+            {/* <RecipeScheduler/> */}
+            {/* <DietaryPreferences/> */}
+
+            <CalorieNutritionCalculator/>
+            
           </div>
         </div>
       </div>
